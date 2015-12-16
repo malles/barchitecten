@@ -7,6 +7,11 @@
 		<position name="description">Description</position>
 		<position name="specification">Specification</position>
 		<position name="bottom">Bottom</position>
+		<position name="widgetkit-1">Widgetkit 1</position>
+		<position name="widgetkit-2">Widgetkit 2</position>
+		<position name="widgetkit-3">Widgetkit 3</position>
+		<position name="widgetkit-4">Widgetkit 4</position>
+		<position name="widgetkit-5">Widgetkit 5</position>
 		<position name="related">Related</position>
 	</positions>
 	<positions layout="teaser">

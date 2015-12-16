@@ -8,7 +8,14 @@
 
 // no direct access
 defined('_JEXEC') or die('Restricted access');
-
+$widgetPosition = false;
+if ($this->checkPosition('widgetkit-1')) {
+	$types = $item->getElementsByType('selectwidget');
+	if (count($types)) {
+		$selectwidget = reset($types);
+		$widgetPosition = $selectwidget->get('option')[0];
+	}
+}
 ?>
 
 <?php if ($this->checkPosition('top')) : ?>
@@ -34,6 +41,10 @@ defined('_JEXEC') or die('Restricted access');
 <ul class="uk-list">
 	<?php echo $this->renderPosition('specification', array('style' => 'uikit_list')); ?>
 </ul>
+<?php endif; ?>
+
+<?php if ($widgetPosition) : ?>
+	<?php echo $this->renderPosition($widgetPosition, array('style' => 'uikit_block')); ?>
 <?php endif; ?>
 
 <?php if ($this->checkPosition('bottom')) : ?>
