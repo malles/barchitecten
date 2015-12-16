@@ -64,10 +64,10 @@ $css_class = $this->application->getGroup().'-'.$this->template->name;
 	<?php
 
 		// render items
-		if (count($this->items)) {
-			$itemstitle = $this->application->getParams()->get('content.items_title');
-			echo $this->partial('items', compact('itemstitle'));
-		}
+//		if (count($this->items)) {
+//			$itemstitle = $this->application->getParams()->get('content.items_title');
+//			echo $this->partial('items', compact('itemstitle'));
+//		}
 
 	?>
 
