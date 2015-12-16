@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="98bd9e67-500c-4fa2-8c6e-2880b3510068" name="Best Architecten" url="http://ftp.homemadewebdesign.nl">
+        <fileTransfer host="ftp.homemadewebdesign.nl" port="21" rootFolder="/httpdocs/ba/concept" password="df9bdf98dfc5dfc1dfdedf87df9bdf93dfc4dfc5dfdcdfeedf81dfe0df8b" username="homemade">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
